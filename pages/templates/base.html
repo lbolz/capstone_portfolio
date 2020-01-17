@@ -23,7 +23,7 @@
             /*  */
             padding: 6px 8px 6px 16px;
             text-decoration: none;
-            font-size: 24px;
+            font-size: 16px;
             color: #818181;
             display: block;
         }
@@ -37,11 +37,13 @@
 <body>
 
     <div class="sidenav">
-        <a href="#home">Home</a>
-        <a href="#creativity">Creativity</a>
-        <a href="#services">Critical Thinking</a>
-        <a href="#clients">Career Management</a>
-        <a href="#contact">Contact</a>
+        <a href="{% url "home" %}">Home</a>
+        <a href="{% url "creativity" %}">Creativity</a>
+        <a href="{% url "critical_thinking" %}">Critical Thinking</a>
+        <a href="{% url "career_management" %}">Career Management</a>
+        <a href="{% url "time_management" %}">Time Management</a>
+        <a href="{% url "professionalism" %}">Professionalism</a>
+        <a href="{% url "reflection" %}">Reflection</a>
     </div>
 
         {% block content %}
