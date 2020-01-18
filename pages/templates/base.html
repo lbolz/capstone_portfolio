@@ -48,13 +48,20 @@
 
         @media screen and (max-width: 700px)
         {
-          .sidebar {
+          .sidenav {
+            top: 0;
             width: 100%;
             height: auto;
             position: relative;
           }
-          .sidebar a {float: left;}
-          div.content {margin-left: 0;}
+
+          .sidenav a {
+              float: left;
+          }
+
+          div.main {
+              margin-left: 0;
+          }
         }
 
         @media screen and (max-width: 400px) {
