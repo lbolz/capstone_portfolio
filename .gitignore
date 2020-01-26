@@ -2,3 +2,4 @@ venv
 *.sqlite3
 *.pyc
 migrations/
+__pycache__/
