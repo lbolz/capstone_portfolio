@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-
+{% load static %}
 <h1>Professionalism</h1>
 <p>
     Professionalism is an essential skill no matter what job one does. The
@@ -25,7 +25,12 @@
         </li>
         <li>
             Below is a screenshot of the email I sent:
-            <br>show email screenshot
+            <br><img src="{% static 'pages/email.png' %}" alt="gitdiff"/>
+        </li>
+        <li>
+            This shows professionalism because I was able to notify my
+            teammates about my absence beforehand, rather than not showing up
+            with no notice.
         </li>
     </ul>
 </ol>
