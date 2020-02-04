@@ -1,18 +1,40 @@
 {% extends "base.html" %}
 {% block content %}
+{% load static %}
 
 <h1>Critical Thinking and Problem Solving</h1>
 <p>
     Critical thinking and problem solving skills are essential in the my
-    capstone internship.
+    capstone internship.  With critical thinking and problem solving, I
+    can recognize problems, evaluate potential solutions, make logical
+    decisions, and solve problems using effective courses of action. So far
+    during my internship, I have encountered several times when I needed
+    to use critical thinking and problem solving skills.
 </p>
 <p>
-    Here are some examples of critical thinking and problem solving in my
+    Below are some examples of critical thinking and problem solving in my
     capstone experience:
-    <br>
-    - Recognizing and analyzing problems
-    - Evaluating potential solutions and resources
-    - Using a logical approach to make decisions and solve problems
-    - Implementing effective courses of action.
 </p>
-{% endblock%}
+
+<ol>
+    <li>Upgrading Testament (BTP)</li>
+    <ul>
+        <li>
+            One of the projects I worked on this year was upgrading a piece of
+            software called Testament, which is used by the DC Books to
+            Prisons to send books to prisoners.
+        </li>
+        <li>
+            As I worked on this project with my mentor, we had to recognize
+            and analyze problems as they came up. Because we didn't want to
+            change what the software already did, we had to be careful to
+            make sure to only change the parts that needed to be upgraded.
+        </li>
+        <li>
+            Although the project is still ongoing, below is one of the issues
+            that I solved on this project:
+            <br><img src="{% static 'pages/gitdiff.jpg' %}" alt="Git Diff">
+        </li>
+    </ul>
+</ol>
+{% endblock %}
