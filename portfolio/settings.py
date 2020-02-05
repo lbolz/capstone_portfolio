@@ -120,4 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = "/Users/985941/Projects/capstone_portfolio/pages/static"
+STATIC_ROOT = '/Users/985941/Projects/capstone_portfolio/static'
