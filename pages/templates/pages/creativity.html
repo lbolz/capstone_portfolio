@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-
+{% load static %}
 <h1>Creativity and Innovation</h1>
 <p>
     Creativity and innovation are vital parts of my capstone experience. From
@@ -22,7 +22,7 @@
             <a href="https://asadministrators.com/">here</a>.
         </li>
         <li>Below, you can see the original design:
-            <br>screenshot
+            <br><img src="{% static 'img/asa_design.png' %}" alt="asa design" style='height: 100%; width: 100%; object-fit: contain'/>
         </li>
         <li>
             This shows creativity because I was able to contribute my ideas
